@@ -1,0 +1,8 @@
+{
+  "name": "sil-stt",
+  "version": "1.0.0",
+  "description": "Local speech-to-text using faster-whisper",
+  "author": "Sil",
+  "dependencies": [],
+  "commands": ["stt"]
+}

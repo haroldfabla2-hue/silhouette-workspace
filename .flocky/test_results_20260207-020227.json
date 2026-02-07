@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-07 02:02:27",
+  "passed": true,
+  "tests": [
+    {
+      "name": "Snapshots disponibles",
+      "passed": true,
+      "details": "5 snapshots"
+    },
+    {
+      "name": "Snapshot v\u00e1lido",
+      "passed": true,
+      "details": "openclaw.json.20260207-005703.json es v\u00e1lido"
+    },
+    {
+      "name": "Config actual v\u00e1lido",
+      "passed": true,
+      "details": "OK"
+    },
+    {
+      "name": "Gateway respondiendo",
+      "passed": true,
+      "details": "OK"
+    }
+  ]
+}

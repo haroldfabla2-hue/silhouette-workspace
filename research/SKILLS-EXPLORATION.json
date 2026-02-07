@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-02-05T15:20:05.863779",
+  "skills": {
+    "bird": {
+      "description": "name: bird",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/bird"
+    },
+    "gemini": {
+      "description": "name: gemini",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/gemini"
+    },
+    "github": {
+      "description": "name: github",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/github"
+    },
+    "google-workspace": {
+      "description": "name: gog",
+      "meta": {
+        "ownerId": "kn70ywcet473291fx4q0jst05d8017py",
+        "slug": "google-workspace",
+        "version": "1.0.1",
+        "publishedAt": 1770222918581
+      },
+      "path": "/root/.openclaw/workspace/skills/google-workspace"
+    },
+    "healthcheck": {
+      "description": "name: healthcheck",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/healthcheck"
+    },
+    "notion": {
+      "description": "name: notion",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/notion"
+    },
+    "sil-stt": {
+      "description": "name: sil-stt",
+      "meta": {
+        "name": "sil-stt",
+        "version": "1.0.0",
+        "description": "Local speech-to-text using faster-whisper",
+        "author": "Sil",
+        "dependencies": [],
+        "commands": [
+          "stt"
+        ]
+      },
+      "path": "/root/.openclaw/workspace/skills/sil-stt"
+    },
+    "skill-creator": {
+      "description": "name: skill-creator",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/skill-creator"
+    },
+    "tmux": {
+      "description": "name: tmux",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/tmux"
+    },
+    "wacli": {
+      "description": "name: wacli",
+      "meta": {
+        "ownerId": "kn70pywhg0fyz996kpa8xj89s57yhv26",
+        "slug": "wacli",
+        "version": "1.0.0",
+        "publishedAt": 1767545393053
+      },
+      "path": "/root/.openclaw/workspace/skills/wacli"
+    },
+    "weather": {
+      "description": "name: weather",
+      "meta": {},
+      "path": "/root/.openclaw/workspace/skills/weather"
+    }
+  },
+  "total": 11
+}

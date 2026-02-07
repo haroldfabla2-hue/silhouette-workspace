@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1770247256510
+    },
+    "healthcheck": {
+      "version": "1.0.2",
+      "installedAt": 1770247258532
+    },
+    "tmux": {
+      "version": "1.0.0",
+      "installedAt": 1770247260961
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1770247263217
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1770247265372
+    },
+    "bird": {
+      "version": "1.0.0",
+      "installedAt": 1770248074654
+    },
+    "gemini": {
+      "version": "1.0.0",
+      "installedAt": 1770248124425
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1770249849201
+    },
+    "google-workspace": {
+      "version": "1.0.1",
+      "installedAt": 1770261095307
+    },
+    "wacli": {
+      "version": "1.0.0",
+      "installedAt": 1770302982205
+    }
+  }
+}
