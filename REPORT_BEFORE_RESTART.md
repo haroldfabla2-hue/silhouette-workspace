@@ -1,7 +1,7 @@
 # Reporte Antes del Reinicio
 
 ## Metadata
-- **Timestamp:** 2026-02-06 02:05:58
+- **Timestamp:** 2026-02-08 13:02:32
 - **Host:** Silhouetteserver
 - **User:** root
 
@@ -14,13 +14,11 @@
 
 ## Procesos Activos
 ```
-root      141470  0.6  2.4 22389396 200628 pts/1 Sl+  01:47   0:07 node /usr/local/bin/gemini
-root      141493 11.9  5.6 33183888 460016 pts/1 Sl+  01:47   2:14 /usr/bin/node /usr/local/bin/gemini
-root      142148  9.8  4.4 22535196 360668 ?     Ssl  02:03   0:15 openclaw-gateway
-root      142257  0.0  0.0   7340  3584 pts/0    S+   02:05   0:00 /bin/bash /root/.openclaw/tools/sil-openclaw-restart.sh channels login whatsapp
-root      142258  0.0  0.0   7340  3584 pts/0    S+   02:05   0:00 bash /root/.openclaw/tools/sil-shutdown.sh
-root      142262  0.0  0.0   7340  1960 pts/0    S+   02:05   0:00 bash /root/.openclaw/tools/sil-shutdown.sh
-root      142268  0.0  0.0   7340  1832 pts/0    S+   02:05   0:00 bash /root/.openclaw/tools/sil-shutdown.sh
+root       10846  5.5  5.7 22641244 467352 ?     Ssl  12:54   0:27 openclaw-gateway
+root       11418  0.0  0.0   7224  3584 pts/0    S+   13:02   0:00 /bin/bash /root/.openclaw/tools/sil-openclaw-restart.sh gateway restart
+root       11419  0.0  0.0   7224  3456 pts/0    S+   13:02   0:00 bash /root/.openclaw/tools/sil-shutdown.sh
+root       11423  0.0  0.0   7224  1960 pts/0    S+   13:02   0:00 bash /root/.openclaw/tools/sil-shutdown.sh
+root       11429  0.0  0.0   7224  1576 pts/0    S+   13:02   0:00 bash /root/.openclaw/tools/sil-shutdown.sh
 ```
 
 ## Última Acción
@@ -33,4 +31,4 @@ Consolidación de memoria automática
 
 ---
 
-*Generado automáticamente: 2026-02-06 02:05:58*
+*Generado automáticamente: 2026-02-08 13:02:32*
