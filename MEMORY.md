@@ -1458,6 +1458,74 @@ print(f'Z.AI: {r.status_code}')
 
 ---
 
+## 📝 2026-02-08 - RESTAURACIÓN BACKUP + PROBLEMA TTS
+
+### Restauración Post-Backup
+
+| Componente | Estado |
+|------------|--------|
+| Gateway | ✅ Activo |
+| Chrome CDP | ✅ Puerto 9222 |
+| Google Cloud | ✅ Configurado |
+| ElevenLabs | ✅ Configurado (sin créditos) |
+| GitHub | ✅ Configurado |
+| Skills | 13 instaladas |
+| Servicios | 6 activos |
+| Cronjobs | 9 en OK (cooldown) |
+
+### Git Operations Realizadas
+
+| Operación | Resultado |
+|-----------|-----------|
+| Stash cambios locales | ✅ Guardados como "backup-20260208-120428" |
+| Pull backup GitHub | ✅ Actualizado a 13ba3c0 |
+| Resolve conflictos | ✅ Resueltos |
+| Pop stash | ✅ Recuperados cambios locales |
+
+### Problema TTS
+
+**Estado:** API deshabilitado (SERVICE_DISABLED)
+
+**Error:**
+```
+{
+  "error": {
+    "code": 403,
+    "message": "The texttospeech.googleapis.com API requires a quota project",
+    "status": "PERMISSION_DENIED",
+    "details": [{"reason": "SERVICE_DISABLED", "domain": "googleapis.com"}]
+  }
+}
+```
+
+**Verificación de credenciales:**
+- ✅ Access Token: Obtenido correctamente
+- ✅ Refresh Token: Funcionando
+- ✅ ADC Credentials: Válidos
+- ❌ API Status: DESHABILITADO en Google Cloud Console
+
+**Solución requerida:**
+1. Ir a Google Cloud Console: https://console.cloud.google.com/apis/library
+2. Habilitar: Cloud Text-to-Speech API
+3. Configurar quota project
+
+### HEARTBEAT.md Actualizado
+
+Se actualizó HEARTBEAT.md para incluir verificación completa del sistema:
+- ✅ Credenciales (todas las APIs)
+- ✅ Skills (13 instaladas)
+- ✅ APIs disponibles (7+)
+- ✅ Supervisor/Flocky
+- ✅ Servicios de mensajería
+- ✅ Memoria
+- ✅ Cronjobs
+- ✅ Herramientas locales
+- ✅ Cloud services
+
+*Actualizado: 2026-02-08 12:05*
+
+---
+
 ## 📝 2026-02-07 12:10 - INSTALACIÓN GOOGLE CHROME Y AUTOMATION
 
 ### Google Chrome Instalado
