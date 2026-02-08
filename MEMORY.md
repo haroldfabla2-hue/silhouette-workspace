@@ -1458,93 +1458,18 @@ print(f'Z.AI: {r.status_code}')
 
 ---
 
-## 📝 2026-02-07 - DECISIÓN DE CHROME/CHROMIUM Y BACKUP
+## 📝 2026-02-07 12:10 - INSTALACIÓN GOOGLE CHROME Y AUTOMATION
 
-### Situación del Navegador
+### Google Chrome Instalado
 
-| Componente | Estado | Notas |
-|------------|--------|-------|
-| **Google Chrome** | Desinstalado | Por preferencia del usuario |
-| **Chromium real** | No instalable | Conflicto dpkg-divert con base-files |
-| **Chromium snap** | Removido | Usuario no quiere snap |
-| **Sin navegador** | Estado actual | Esperando arreglar dpkg |
+| Campo | Valor |
+|-------|-------|
+| **Versión** | Google Chrome 144.0.7559.132 |
+| **Método** | Descarga directa desde Google |
+| **Puerto CDP** | 9222 |
 
-### Conflicto de dpkg Detectado
+### Sistema de Automation
 
-```
-Error: diversion of /lib32 to /.lib32.usr-is-merged by base-files' clashes
-```
-
-### Análisis de Riesgos
-
-| Riesgo | Probabilidad | Consecuencia |
-|--------|--------------|--------------|
-| Sistema corrupto | 25% | No se pueden instalar paquetes |
-| No arranca | 5% | Requiere recovery |
-
-### Decisión: Arreglar dpkg después del Backup
-
-**Usuario decidió:**
-1. ✅ Consolidar memoria de Sil
-2. ✅ Actualizar backup en GitHub
-3. ⏳ Usuario hace backup del servidor
-4. ⏳ Arreglar dpkg e instalar chromium
-
-### Copia de Seguridad del Sistema
-
-**Usuario debe hacer backup de:**
-- `/root/.openclaw/` - Workspace completo
-- `/etc/apt/sources.list.d/` - Repositorios
-- `/var/lib/snapd/` - Snaps (si importa)
-- Configuraciones del sistema
-
-*Consolidado: 2026-02-07 10:55*
-
----
-
-## 📝 2026-02-07 11:10 - GITHUB BACKUP CONFLICTO DE SECRET SCANNING
-
-### Problema Encontrado
-
-GitHub secret scanning detectó API keys en commits antiguos:
-
-| Secreto | Archivo | Estado |
-|---------|---------|--------|
-| **GITHUB_TOKEN** | .env:11 | ✅ Removido del historial |
-| **MINIMAX_API_KEY** | .env:15 | ✅ Removido del historial |
-| **OpenAI API Key** | SECURITY_PROTOCOL_V2.md:121 | ⚠️ Detectado |
-| **OpenAI API Key** | SECURITY_PROTOCOL_V3.md:186 | ⚠️ Detectado |
-
-### Acciones Tomadas
-
-1. ✅ Token guardado en .env
-2. ✅ Repository creado en GitHub
-3. ✅ Archivos sensibles removidos de git
-4. ⚠️ Push bloqueado por secret scanning
-
-### Solución Pendiente
-
-El usuario debe desbloquear los secretos en GitHub:
-
-```
-URL: https://github.com/haroldfabla2-hue/silhouette-workspace/security/secret-scanning/unblock-secret/39LgKhCcCdNPrCoL0rKVjISq3BS
-```
-
-### Archivos en Repositorio Local (listos para push)
-
-| Commit | Descripción |
-|--------|-------------|
-| 1766c19 | Add Flocky v4.0 supervisor files |
-| 40fad7f | Full backup 2026-02-07 - All workspace files |
-| d78b98a | Memory consolidation |
-
-*Consolidado: 2026-02-07 11:10*
-
-## 🔄 Consolidados Automáticamente - 2026-02-07
-## 📱 Contactos Extraídos
-- +51927845269## 🎨 Links de Drive
-- https://drive.google.com/drive/folders/1T9MojQxPxDLIZvmhdHI7r2pKnDpRY2d0- https://drive.google.com/drive/folders/1KAL82md9CU67Fsns3rM7iiPZmJed1dkC- https://drive.google.com
-## 🔄 Consolidados Automáticamente - 2026-02-07
-## 📱 Contactos Extraídos
-- +51927845269## 🎨 Links de Drive
-- https://drive.google.com/drive/folders/1T9MojQxPxDLIZvmhdHI7r2pKnDpRY2d0- https://drive.google.com/drive/folders/1KAL82md9CU67Fsns3rM7iiPZmJed1dkC- https://drive.google.com
+| Componente | Ubicación |
+|-----------|----------|
+| **Script Python** | `/root/.openclaw/tools/chrome-auto-v2.py` |

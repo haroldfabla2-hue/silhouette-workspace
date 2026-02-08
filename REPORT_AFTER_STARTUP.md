@@ -1,16 +1,17 @@
 # Reporte Después del Inicio
 
 ## Metadata
-- **Timestamp:** 2026-02-06 12:12:55
+- **Timestamp:** 2026-02-07 20:11:31
 - **Host:** Silhouetteserver
 - **User:** root
 
 ## Estado del Sistema
 ```
-root      156635  113  0.7 1022216 62404 ?       Rsl  12:12   0:00 /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789
-root      156636  0.0  0.0   7340  3584 ?        Ss   12:12   0:00 /bin/bash /root/.openclaw/tools/sil-startup.sh
-root      156653  0.0  0.0   7340  2096 ?        S    12:12   0:00 /bin/bash /root/.openclaw/tools/sil-startup.sh
-root      156656  0.0  0.0   7340  1840 ?        S    12:12   0:00 /bin/bash /root/.openclaw/tools/sil-startup.sh
+root        1213 25.0  0.4 748004 38224 ?        Rsl  20:11   0:00 /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789
+root        1218 19.3  0.4 748004 38656 ?        Rsl  20:11   0:00 node /usr/bin/openclaw channels login
+root        1221  3.3  0.0   7224  3456 ?        Ss   20:11   0:00 /bin/bash /root/.openclaw/tools/sil-startup.sh
+root        1302  0.0  0.0   7224  2092 ?        S    20:11   0:00 /bin/bash /root/.openclaw/tools/sil-startup.sh
+root        1305  0.0  0.0   7224  1708 ?        S    20:11   0:00 /bin/bash /root/.openclaw/tools/sil-startup.sh
 ```
 
 ## Archivos de Continuidad Leídos
@@ -33,4 +34,4 @@ root      156656  0.0  0.0   7340  1840 ?        S    12:12   0:00 /bin/bash /ro
 
 ---
 
-*Generado automáticamente: 2026-02-06 12:12:55*
+*Generado automáticamente: 2026-02-07 20:11:31*
